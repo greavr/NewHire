@@ -1,0 +1,87 @@
+﻿/* HTML Defaults */
+body {
+	background-image:url(/background.jpg);
+	background-color:#cccccc;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+/* Styles */
+h1 {
+	color:#33D633;
+	text-align: center;
+}
+
+h2 {
+	color:#33D633;
+	font-size: 1.2em;
+}
+
+h3 {
+	color:#FF0000;
+	font-size: 0.9em;
+}
+
+.Missing {
+	color:#FF0000;
+}
+
+
+/* Page Layout */
+#Content {
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	width: 1000px;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+#NewHire input {
+	display: inline;
+	font-size: 1.0em;
+	margin-left: 50px;
+	color: #A4A4A4;
+}
+#NewHire TextArea {
+	display: block;
+	font-size: 1.0em;
+	padding: 5px;
+	color: #A4A4A4;
+}
+#NewHire Label  {
+	display: block;
+	font-size: 1.1em;
+	padding: 5px;
+}
+
+/* Result Banner */
+#Success {
+	width: 100%;
+	height: 20px;
+	background-color: #C1FFC1;
+	border-top: 2px dashed #008000;
+	border-Bottom: 2px dashed #008000;
+	Text-Align: Center;
+	top: 0px;
+	position: absolute;
+	padding: 2px;
+	left: -5px;
+}
+
+#Error {
+	width: 100%;
+	height: 20px;
+	background-color: #FA8072;
+	border-top: 2px dashed #CD0000;
+	border-Bottom: 2px dashed #CD0000;
+	Text-Align: Center;
+	top: 0px;
+	position: absolute;
+	padding: 2px;
+	left: -5px;
+}
